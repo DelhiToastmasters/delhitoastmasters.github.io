@@ -12,3 +12,68 @@ img{height:150px;width:150px;border-radius:75px}.card-avatar .card-content{text-
 p{margin:15px
 0px}.card-avatar .card-content
 i{font-size:1.5rem}.card-avatar .card-content .card-title{line-height:30px !important}.parallax-container{max-height:250px}footer.page-footer{margin-top:0px !important}
+
+@media only screen and (min-width: 480px) {
+    .brand-logo {
+        font-size: 20px !important;
+        font-weight: bold;
+        margin-top: 2px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .brand-logo {
+        font-size: 20px !important;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+    nav{
+    	height: 90px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .brand-logo {
+        font-size: 15px !important;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+    nav{
+    	height: 90px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .wheredtms{
+    	margin-top:-45px;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .wheredtms{
+    	margin-top: -30px;
+    }
+}
+
+
+@media only screen and (min-width: 750px) {
+    .dtmmission{
+    	margin-top:-35px; 
+    	font-size:20px; 
+    	line-height: 130%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .dtmmission{
+    	margin-top:-25px; 
+    	font-size:20px; 
+    	line-height: 130%;
+    }
+}
+
+/*dtm red text*/
+@media only screen and (max-width: 430px) {
+    .dtmtextspan{
+    	font-size:40px; 
+    }
+}
+
