@@ -191,6 +191,30 @@
                 </div>
             </div>
 
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/experience/exp_7.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/experience/exp_8.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m4 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="img/experience/exp_9.jpg">
+                    </div>
+                </div>
+            </div>
+
             <!-- <div class="col s12 m4 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -205,7 +229,7 @@
 
 <!--Parallax-->
 <div class="parallax-container">
-    <div class="parallax"><img src="img/parallax2.jpg"></div>
+    <div class="parallax"><img src="img/parallax2d.jpg"></div>
 </div>
 
 
@@ -275,8 +299,17 @@
     </div>
     <div class="footer-copyright default_color">
         <div class="container center">
-            &copy; Delhi Toastmasters 2016
+            &copy; Delhi Toastmasters 2016 | <u><a style="color:#ffdbdb" class="modal-trigger" href="#webmastermodal">Contact Webmaster</a></u>
         </div>
+    </div>
+    <div id="webmastermodal" class="modal">
+    <div class="modal-content">
+      <h4>Contact Webmaster</h4>
+      <p>Ping any queries to our webmaster, Jasdev Singh at our email: <a href="mailto:delhitoastmastersdtm@gmail.com">delhitoastmastersdtm@gmail.com</a></p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">OKAY</a>
+    </div>
     </div>
 </footer>
 
@@ -289,6 +322,10 @@
             setTimeout( function() { window.location = URL }, 700 );
         }
     </script>
-
-    </body>
+    <script type="text/javascript">
+         $(document).ready(function(){
+            $('.modal-trigger').leanModal();
+          });
+    </script>
+</body>
 </html>
