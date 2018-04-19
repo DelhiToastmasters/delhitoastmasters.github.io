@@ -37,7 +37,7 @@
 
 .brand-logo{
     position: absolute;
-    color: #fff;
+    color: #004165;
     display: inline-block;
     font-size: 2.1rem;
     font-style: normal;
@@ -55,7 +55,7 @@
 .in{font-weight: 400 !important; font-style: normal !important;}
 
 .promo i {
-    color: #2196F3;
+    color: #004165;
     font-size: 7rem;
     display: block;
 }
@@ -69,7 +69,7 @@
 
 nav ul a {
     font-size: 1.2rem;
-    color: #FFF;
+    color: #004165;
     letter-spacing: 2px;
     display: block;
     font-weight: 300;
